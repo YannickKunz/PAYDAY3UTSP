@@ -1,0 +1,65 @@
+body {
+    background-color:darkslategray;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+  
+
+header {
+    background-color: lightgray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    color: black;
+    border: black solid 1px;
+}
+
+.container {
+    background-color:lightgray;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+
+header * {
+    display: inline;
+    align-items: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cell {
+    height: 50px;
+    width: 50px;
+    background-color: #999;
+    display: inline-block;
+    cursor: pointer; /* Add this to show pointer cursor on hover */
+}
+  
+.cell.active {
+    background-color: aquamarine;
+}
+
+.grid {
+    align-items: left;
+}
