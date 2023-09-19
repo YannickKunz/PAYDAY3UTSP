@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayDay 3 Under The Surphaze</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+         <nav>
+             <ul>
+                 <li><a href="https://mypaydaythreevault.netlify.app/">No Rest For The Wicked</a></li>
+                 <li><a href="#">Under The Surphaze</a></li>
+             </ul>
+         </nav>
+     </header>
+     <div class = "container">
+        <h1>PayDay 3 Under The Surphaze</h1>
+        <h3>
+            <div class = "computer">
+                <label> Computer information: </label>
+                <br>
+                <input type="text" id="computerInput">
+                <br>
+                <input type="text" id="computerInput">
+            </div>
+            <br>
+            <div class = "qrCodes">
+                <label> QR Codes : </label>
+                <br>
+                    <label> Lounge </label>
+                    <input type="checkbox" id="qrInput" value="Lounge">
+                    <label> Toilets </label>
+                    <input type="checkbox" id="qrInput" value="Toilets">
+                    <label> Cameras </label>
+                    <input type="checkbox" id="qrInput" value="Cameras">
+                    <br>
+                    <label>  Server Room </label>
+                    <input type="checkbox" id="qrInput" value="Server Room">
+                    <label> Break Room </label>
+                    <input type="checkbox" id="qrInput" value="Break Room">
+                    <label> Office </label>
+                    <input type="checkbox" id="qrInput" value="Office">
+                    <br> <br>
+                    <label> Reception </label>
+                    <div class="receptionQR">
+                        <div class="grid">
+                            <div class="cell" onclick="changeColor(this)"></div>
+                            <div class="cell" onclick="changeColor(this)"></div>
+                            <div class="cell" onclick="changeColor(this)"></div>
+                            <br>
+                            <div class="cell" onclick="changeColor(this)"></div>
+                            <div class="cell" onclick="changeColor(this)"></div>
+                            <div class="cell" onclick="changeColor(this)"></div>
+                            <br>
+                            <div class="cell" onclick="changeColor(this)"></div>
+                            <div class="cell" onclick="changeColor(this)"></div>
+                            <div class="cell" onclick="changeColor(this)"></div>
+                        </div>
+                        <br>
+                        <div>
+                            <div class="cell" onclick="changeColor(this)"></div>
+                            <div class="cell" onclick="changeColor(this)"></div>
+                            <div class="cell" onclick="changeColor(this)"></div>
+                            <div class="cell" onclick="changeColor(this)"></div>
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <label> Ground floor security </label>
+                        <input type="checkbox" id="security" value="security">
+                        <br>
+                        <label> Top floor security </label>
+                        <input type="checkbox" id="security" value="security">
+                    </div>
+            </div>
+        </h3>
+     </div>
+
+    <script src="index.js"></script>
+    </body>
+</html>
